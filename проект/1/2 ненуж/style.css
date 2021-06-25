@@ -1,0 +1,386 @@
+
+body{
+    background-color: #E2EDFF;
+    font-family: 'Roboto', sans-serif, "Trebuchet MS", Verdana;
+   }
+
+   img#logo{
+     position: fixed;
+     width: 4.052vw;
+     left: 3.646vw;
+     top: 2vh;
+     z-index: 2;
+   }
+   img#plashka{
+     position: fixed;
+     width: 100vw;
+     left: 0vw;
+     top: -2vh;
+     z-index: 1;
+   }
+
+
+   a.nubex {
+     color: #3C89FF;
+     user-select: auto; /* Убираем текстовое выделение */
+     text-decoration: none;	/* Убираем подчеркивание */
+     background-color: #E2EDFF; /* Цвет фона */
+     padding: 1vh 3.6vw; /* Отступ от текста до рамки */
+     left: 16.25vw;
+     top: 2vh;
+     position: fixed;
+     font-size: 1.20vw;
+     z-index: 3;
+     border-radius: 1vw;
+       font-family:  sans-serif, "Trebuchet MS", Verdana;
+   }
+   a.nubex:active {
+     background-color: #ee6206; /* Цвет кнопки при нажатии */
+   }
+   a.nubex:hover {
+     background-color: #FFFFFF; /* Цвет кнопки при наведении курсора */
+     border-radius: 1vw;
+   }
+
+   a.otprav {
+     color: #3C89FF;
+     user-select: auto;
+     text-decoration: none;
+     background-color: #E2EDFF;
+     padding: 1vh 2.71vw;
+     left: 33.28vw;
+     top: 2vh;
+     position: fixed;
+     font-size: 1.20vw;
+     z-index: 4;
+   }
+   a.otprav:active {
+     background-color: #ee6206;
+   }
+   a.otprav:hover {
+     background-color: #FFFFFF;
+     border-radius: 1vw;
+   }
+
+   a.poluch {
+     color: #3C89FF;
+     user-select: auto;
+     text-decoration: none;
+     background-color: #E2EDFF;
+     padding: 1vh 3.07vw;
+     left: 51.20vw;
+     top: 2vh;
+     position: fixed;
+     font-size: 1.20vw;
+     z-index: 5;
+   }
+   a.poluch:active {
+     background-color: #ee6206;
+   }
+   a.poluch:hover {
+     background-color: #FFFFFF;
+     border-radius: 1vw;
+   }
+
+   a.yslug {
+     color: #3C89FF;
+     user-select: auto;
+     text-decoration: none;
+     background-color: #E2EDFF;
+     padding: 1vh 3.85vw;
+     left: 67.71vw;
+     top: 2vh;
+     position: fixed;
+     font-size: 1.20vw;
+     z-index: 6;
+   }
+   a.yslug:active {
+     background-color: #ee6206;
+   }
+   a.yslug:hover {
+     background-color: #FFFFFF;
+     border-radius: 1vw;
+   }
+
+   a.magazin {
+     color: #3C89FF;
+     user-select: auto;
+     text-decoration: none;
+     background-color: #E2EDFF;
+     padding: 1vh 3.33vw;
+     left: 84.17vw;
+     top: 2vh;
+     position: fixed;
+     font-size: 1.20vw;
+     z-index: 7;
+   }
+   a.magazin:active {
+     background-color: #ee6206;
+   }
+   a.magazin:hover {
+     background-color: #FFFFFF;
+     border-radius: 1vw;
+   }
+
+   .en {
+     position: absolute;
+     top: 8.5vh;
+     left:  10.99vw;
+     font-size: 4.95vw;
+     color: #3C89FF;
+   }
+
+   /* button {
+     color: #fff;
+     background: #000;
+     padding: 1.2rem 2rem;
+     cursor: pointer;
+     user-select: none;
+     border: none;
+     outline: none;
+     transition: background 9999999s;
+   }
+
+   button:active {
+     background: red;
+     transition: background 0s;
+   } */
+   /* Style the buttons */
+   .btn1 {
+     position: absolute;
+     top: 17vw;
+     left:  11vw;
+     border: #FFFFFF;
+     padding: 25px 37px;
+     background-color: #6DA7FF;
+     border-radius: 50%;
+     color: #3C89FF;
+     background-color: #D4E5FF;
+     border: solid;
+     font-weight:  bold;
+     border-color: #6DA7FF;
+     border-width: 2px;
+     font-size: 2.5vw;
+   }
+   .btn2 {
+     position: absolute;
+     top: 17vw;
+     left:  19vw;
+     border: #FFFFFF;
+     padding: 25px 37px;
+     background-color: #6DA7FF;
+     border-radius: 50%;
+     color: #3C89FF;
+     background-color: #D4E5FF;
+     border: solid;
+     font-weight:  bold;
+     border-color: #6DA7FF;
+     border-width: 2px;
+     font-size: 2.5vw;
+   }
+   .btn3{
+     position: absolute;
+     top: 17vw;
+     left:  27vw;
+     border: #FFFFFF;
+     padding: 25px 37px;
+     background-color: #6DA7FF;
+     border-radius: 50%;
+     color: #3C89FF;
+     background-color: #D4E5FF;
+     border: solid;
+     font-weight:  bold;
+     border-color: #6DA7FF;
+     border-width: 2px;
+     font-size: 2.5vw;
+   }
+ .btn4{
+   position: absolute;
+   top: 25vw;
+   left:  11vw;
+   border: #FFFFFF;
+   padding: 25px 37px;
+   background-color: #6DA7FF;
+   border-radius: 50%;
+   color: #3C89FF;
+   background-color: #D4E5FF;
+   border: solid;
+   font-weight:  bold;
+   border-color: #6DA7FF;
+   border-width: 2px;
+   font-size: 2.5vw;
+ }
+ .btn5{
+   position: absolute;
+   top: 25vw;
+   left:  19vw;
+   border: #FFFFFF;
+   padding: 25px 37px;
+   background-color: #6DA7FF;
+   border-radius: 50%;
+   color: #3C89FF;
+   background-color: #D4E5FF;
+   border: solid;
+   font-weight:  bold;
+   border-color: #6DA7FF;
+   border-width: 2px;
+   font-size: 2.5vw;
+ }
+ .btn6{
+   position: absolute;
+   top: 25vw;
+   left:  27vw;
+   border: #FFFFFF;
+   padding: 25px 37px;
+   background-color: #6DA7FF;
+   border-radius: 50%;
+   color: #3C89FF;
+   background-color: #D4E5FF;
+   border: solid;
+   font-weight:  bold;
+   border-color: #6DA7FF;
+   border-width: 2px;
+   font-size: 2.5vw;
+ }
+ .btn7{
+   position: absolute;
+   top: 33vw;
+   left:  11vw;
+   border: #FFFFFF;
+   padding: 25px 37px;
+   background-color: #6DA7FF;
+   border-radius: 50%;
+   color: #3C89FF;
+   background-color: #D4E5FF;
+   border: solid;
+   font-weight:  bold;
+   border-color: #6DA7FF;
+   border-width: 2px;
+   font-size: 2.5vw;
+ }
+ .btn8{
+   position: absolute;
+   top: 33vw;
+   left:  19vw;
+   border: #FFFFFF;
+   padding: 25px 37px;
+   background-color: #6DA7FF;
+   border-radius: 50%;
+   color: #3C89FF;
+   background-color: #D4E5FF;
+   border: solid;
+   font-weight:  bold;
+   border-color: #6DA7FF;
+   border-width: 2px;
+   font-size: 2.5vw;
+ }
+ .btn9{
+   position: absolute;
+   top: 33vw;
+   left:  27vw;
+   border: #FFFFFF;
+   padding: 25px 37px;
+   background-color: #6DA7FF;
+   border-radius: 50%;
+   color: #3C89FF;
+   background-color: #D4E5FF;
+   border: solid;
+   font-weight:  bold;
+   border-color: #6DA7FF;
+   border-width: 2px;
+   font-size: 2.5vw;
+ }
+ .btn10{
+   position: absolute;
+   top: 41vw;
+   left:  16.5vw;
+   border: #FFFFFF;
+   padding: 15px 25px;
+   background-color: #6DA7FF;
+   /* cursor: pointer; */
+   border-radius: 1vw;
+   color: #3C89FF;
+   background-color: #D4E5FF;
+   border: solid;
+   cursor: pointer;
+   font-weight:  bold;
+   border-color: #6DA7FF;
+   border-width: 2px;
+   font-size: 1.20vw;
+ }
+ /* Style the active class (and buttons on mouse-over) */
+ .active, .btn1:hover {
+   background-color: #6DA7FF;
+   color: white;
+   border-radius: 50%;
+ }
+ .active, .btn2:hover {
+   background-color: #6DA7FF;
+   color: white;
+   border-radius: 50%;
+ }
+ .active, .btn3:hover {
+   background-color: #6DA7FF;
+   color: white;
+   border-radius: 50%;
+ }
+ .active, .btn4:hover {
+   background-color: #6DA7FF;
+   color: white;
+   border-radius: 50%;
+ }
+ .active, .btn5:hover {
+   background-color: #6DA7FF;
+   color: white;
+   border-radius: 50%;
+ }
+ .active, .btn6:hover {
+   background-color: #6DA7FF;
+   color: white;
+   border-radius: 50%;
+ }
+ .active, .btn7:hover {
+   background-color: #6DA7FF;
+   color: white;
+   border-radius: 50%;
+ }
+ .active, .btn8:hover {
+   background-color: #6DA7FF;
+   color: white;
+   border-radius: 50%;
+ }
+ .active, .btn9:hover {
+   background-color: #6DA7FF;
+   color: white;
+   border-radius: 50%;
+ }
+ .active, .btn10:hover {
+   background-color: #6DA7FF;
+   color: white;
+   border-radius: 50%;
+ }
+
+ .foot {
+  position: absolute;
+  top: 95.00vh;
+  left: 10.99vw;
+  font-size: 1.04vw;
+  color: #3C89FF;
+  padding: 2vw 0vh;
+ }
+ .foot2 {
+  position: absolute;
+  top: 95.00vh;
+  left: 40.31vw;
+  font-size: 1.04vw;
+  color: #3C89FF;
+  padding: 2vw 0vh;
+ }
+ .foot3 {
+  position: absolute;
+  top: 95.00vh;
+  left: 67vw;
+  font-size: 1.04vw;
+  color: #3C89FF;
+  padding: 2vw 0vh;
+ }
