@@ -1,0 +1,221 @@
+
+body{
+    background-color: #E2EDFF;
+    font-family: 'Roboto', sans-serif, "Trebuchet MS", Verdana;
+   }
+
+   img#logo{
+     position: fixed;
+     width: 4.052vw;
+     left: 3.646vw;
+     top: 2vh;
+     z-index: 2;
+   }
+   img#plashka{
+     position: fixed;
+     width: 100vw;
+     left: 0vw;
+     top: -2vh;
+     z-index: 1;
+   }
+
+
+   a.nubex {
+     color: #3C89FF;
+     user-select: auto; /* Убираем текстовое выделение */
+     text-decoration: none;	/* Убираем подчеркивание */
+     background-color: #E2EDFF; /* Цвет фона */
+     padding: 1vh 3.6vw; /* Отступ от текста до рамки */
+     left: 16.25vw;
+     top: 2vh;
+     position: fixed;
+     font-size: 1.20vw;
+     z-index: 3;
+     border-radius: 1vw;
+       font-family:  sans-serif, "Trebuchet MS", Verdana;
+   }
+   a.nubex:active {
+     background-color: #ee6206; /* Цвет кнопки при нажатии */
+   }
+   a.nubex:hover {
+     background-color: #FFFFFF; /* Цвет кнопки при наведении курсора */
+     border-radius: 1vw;
+   }
+
+   a.otprav {
+     color: #3C89FF;
+     user-select: auto;
+     text-decoration: none;
+     background-color: #E2EDFF;
+     padding: 1vh 2.71vw;
+     left: 33.28vw;
+     top: 2vh;
+     position: fixed;
+     font-size: 1.20vw;
+     z-index: 4;
+   }
+   a.otprav:active {
+     background-color: #ee6206;
+   }
+   a.otprav:hover {
+     background-color: #FFFFFF;
+     border-radius: 1vw;
+   }
+
+   a.poluch {
+     color: #3C89FF;
+     user-select: auto;
+     text-decoration: none;
+     background-color: #E2EDFF;
+     padding: 1vh 3.07vw;
+     left: 51.20vw;
+     top: 2vh;
+     position: fixed;
+     font-size: 1.20vw;
+     z-index: 5;
+   }
+   a.poluch:active {
+     background-color: #ee6206;
+   }
+   a.poluch:hover {
+     background-color: #FFFFFF;
+     border-radius: 1vw;
+   }
+
+   a.yslug {
+     color: #3C89FF;
+     user-select: auto;
+     text-decoration: none;
+     background-color: #E2EDFF;
+     padding: 1vh 3.85vw;
+     left: 67.71vw;
+     top: 2vh;
+     position: fixed;
+     font-size: 1.20vw;
+     z-index: 6;
+   }
+   a.yslug:active {
+     background-color: #ee6206;
+   }
+   a.yslug:hover {
+     background-color: #FFFFFF;
+     border-radius: 1vw;
+   }
+
+   a.magazin {
+     color: #3C89FF;
+     user-select: auto;
+     text-decoration: none;
+     background-color: #E2EDFF;
+     padding: 1vh 3.33vw;
+     left: 84.17vw;
+     top: 2vh;
+     position: fixed;
+     font-size: 1.20vw;
+     z-index: 7;
+   }
+   a.magazin:active {
+     background-color: #ee6206;
+   }
+   a.magazin:hover {
+     background-color: #FFFFFF;
+     border-radius: 1vw;
+   }
+
+   .en {
+     position: absolute;
+     top: 8.5vh;
+     left:  10.99vw;
+     font-size: 4.95vw;
+     color: #3C89FF;
+   }
+
+   .kopez{
+     position: absolute;
+     left: 32.97vw;
+     top: 31.00vh;
+     font-size: 1.20vw;
+     color: #3C89FF;
+     background-color: #FFFFFF;
+     padding: 16px 15px;
+     border: none;
+     cursor: pointer;
+     width: 11.88vw;
+     border-radius: 1vw;
+     font-weight:  bold;
+   }
+   .kopez:hover {
+     background-color: #3C89FF;
+     border-radius: 1vw;
+     color: #FFFFFF;
+   }
+   .kopex{
+     position: absolute;
+     left:  10.99vw;
+     top: 31.00vh;
+     font-size: 1.20vw;
+     color: #3C89FF;
+     background-color: #FFFFFF;
+     padding: 1.04vw 3.2vw;
+     border: #3C89FF;
+     border-radius: 1vw;
+     outline: none;
+   }
+  .ka{
+    position: absolute;
+    left:  10.99vw;
+    top: 43vh;
+  }
+
+  .bron {
+    position: absolute;
+    top: 102vh;
+    left:  10.99vw;
+    font-size: 4.95vw;
+    color: #3C89FF;
+  }
+
+  .for {
+    position: absolute;
+    top: 125vh;
+    left:  10vw;
+    font-size: 1.20vw;
+    color: #3C89FF;
+  }
+  .element{
+    background-image: url('img/pin.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    z-index:1;
+    position: absolute;
+
+    left: 5vw;
+  }
+
+  .foot {
+   position: absolute;
+   top: 155vh;
+   left: 10.99vw;
+   font-size: 1.04vw;
+   color: #3C89FF;
+   padding: 2vw 0vh;
+  }
+  .foot2 {
+   position: absolute;
+   top: 155vh;
+   left: 40.31vw;
+   font-size: 1.04vw;
+   color: #3C89FF;
+   padding: 2vw 0vh;
+  }
+  .foot3 {
+   position: absolute;
+   top: 155vh;
+   left: 67vw;
+   font-size: 1.04vw;
+   color: #3C89FF;
+   padding: 2vw 0vh;
+  }

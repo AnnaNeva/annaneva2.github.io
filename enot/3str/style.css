@@ -1,0 +1,1108 @@
+body{font-family: 'Roboto', sans-serif, "Trebuchet MS", Verdana;}
+
+
+img#logo{
+  position: fixed;
+  width: 4.052vw;
+  left: 3.646vw;
+  top: 2vh;
+  z-index: 2;
+}
+img#plashka{
+  position: fixed;
+  width: 100vw;
+  left: 0vw;
+  top: -2vh;
+  z-index: 1;
+}
+
+
+a.nubex {
+  color: #3C89FF;
+  user-select: auto;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  padding: 1vh 3.6vw;
+  left: 16.25vw;
+  top: 2vh;
+  position: fixed;
+  font-size: 1.20vw;
+  z-index: 3;
+    font-family:  sans-serif, "Trebuchet MS", Verdana;
+}
+a.nubex:active {
+  background-color: #ee6206;
+}
+a.nubex:hover {
+  background-color: #E2EDFF;
+  border-radius: 1vw;
+}
+
+a.otprav {
+  color: #3C89FF;
+  user-select: auto;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  padding: 1vh 2.71vw;
+  left: 33.28vw;
+  top: 2vh;
+  position: fixed;
+  font-size: 1.20vw;
+  z-index: 4;
+    font-family:  sans-serif, "Trebuchet MS", Verdana;
+}
+a.otprav:active {
+  background-color: #ee6206;
+}
+a.otprav:hover {
+  background-color: #E2EDFF;
+  border-radius: 1vw;
+}
+
+a.poluch {
+  color: #3C89FF;
+  user-select: auto;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  padding: 1vh 3.07vw;
+  left: 51.20vw;
+  top: 2vh;
+  position: fixed;
+  font-size: 1.20vw;
+  z-index: 5;
+    font-family:  sans-serif, "Trebuchet MS", Verdana;
+}
+a.poluch:active {
+  background-color: #ee6206;
+}
+a.poluch:hover {
+  background-color: #E2EDFF;
+  border-radius: 1vw;
+}
+
+a.yslug {
+  color: #3C89FF;
+  user-select: auto;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  padding: 1vh 3.85vw;
+  left: 67.71vw;
+  top: 2vh;
+  position: fixed;
+  font-size: 1.20vw;
+  z-index: 6;
+    font-family:  sans-serif, "Trebuchet MS", Verdana;
+}
+a.yslug:active {
+  background-color: #ee6206;
+}
+a.yslug:hover {
+  background-color: #E2EDFF;
+  border-radius: 1vw;
+}
+
+a.magazin {
+  color: #3C89FF;
+  user-select: auto;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  padding: 1vh 3.33vw;
+  left: 84.17vw;
+  top: 2vh;
+  position: fixed;
+  font-size: 1.20vw;
+  z-index: 7;
+    font-family:  sans-serif, "Trebuchet MS", Verdana;
+}
+a.magazin:active {
+  background-color: #ee6206;
+}
+a.magazin:hover {
+  background-color: #E2EDFF;
+  border-radius: 1vw;
+}
+
+.dla {
+  position: absolute;
+  top: 8.5vh;
+  left:  10.99vw;
+  font-size: 4.95vw;
+  color: #3C89FF;
+}
+.tex1 {
+  position: absolute;
+  top: 27.5vh;
+  left:  11.5vw;
+  font-size: 1.67vw;
+  color: #3C89FF;
+  font-weight:  500;
+
+}
+.container {
+  /* сам контейнер для надписи */
+  position: absolute;
+  /* расстояние от краев */
+  top: 35vh;
+  left:  10.99vw;
+   display: inline;
+   user-select: none;
+   border: #FFFFFF;
+   /* сама рамка */
+   padding: 3.5vw 6vw;
+   background-color: #6DA7FF;
+   border-radius: 1vw;
+   color: #3C89FF;
+   background-color: #D4E5FF;
+   border: solid;
+   border-color: #6DA7FF;
+   border-width: 2px;
+   font-size: 1.20vw;
+}
+input[type="checkbox"]:checked,
+input[type="checkbox"]:not(:checked){
+  /* Перенесем стандартное отображение элементов за область видимости */
+    position: absolute;
+    left: -9999px;
+}
+input[type="checkbox"]:checked + label,
+input[type="checkbox"]:not(:checked) + label{
+   /* добавим отступы к соседствующим меткам: */
+    display: inline-block;
+    position: relative;
+    /* отступы текста от рамки */
+    padding-left: 7.5vw;
+    line-height: 20px;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked + label:before,
+input[type="checkbox"]:not(:checked) + label:before {
+  /* стилизованные контейнеры */
+    content: "";
+    position: absolute;
+    left: 2vw;
+    top: 4vh;
+    /* круг */
+    width: 4vw;
+    height: 4vw;
+    border: 1px solid #3C89FF;
+    background-color: #ffffff;
+}
+input[type="checkbox"]:checked + label:before,
+input[type="checkbox"]:not(:checked) + label:before {
+  /* квадраты с немного закругленными для красоты краями */
+    border-radius: 50%;
+}
+input[type="checkbox"]:checked + label:after,
+input[type="checkbox"]:not(:checked) + label:after{
+  /* Теперь добавим индикаторы выбора. */
+    content: "";
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+input[type="checkbox"]:checked + label:after,
+input[type="checkbox"]:not(:checked) + label:after {
+  /* небольшая анимация */
+    left: 2.7vw;
+    top: 4.2vh;
+    width: 3.5vw;
+    height: 2vw;
+    border-radius: 0.01vw;
+    border-left: 0.3vw solid #3C89FF;
+    border-bottom: 0.3vw solid #3C89FF;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+input[type="checkbox"]:not(:checked) + label:after {
+  /* индикаторы выбора */
+    opacity: 0;
+}
+input[type="checkbox"]:checked + label:after{
+  /* индикаторы выбора */
+    opacity: 1;
+}
+.container2 {
+  /* сам контейнер для надписи */
+  position: absolute;
+  /* расстояние от краев */
+  top: 17.5vh;
+  left:  37vw;
+   display: inline;
+   user-select: none;
+   border: #FFFFFF;
+   /* сама рамка */
+   padding: 3.5vw 7.25vw;
+   background-color: #6DA7FF;
+   border-radius: 1vw;
+   color: #3C89FF;
+   background-color: #D4E5FF;
+   border: solid;
+   border-color: #6DA7FF;
+   border-width: 2px;
+   font-size: 1.20vw;
+}
+
+.tex2 {
+  position: absolute;
+  top: 53.5vh;
+  left:  11.5vw;
+  font-size: 1.67vw;
+  color: #3C89FF;
+  font-weight:  500;
+
+}
+.container3 {
+  /* сам контейнер для надписи */
+  position: absolute;
+  /* расстояние от краев */
+  top: 26vh;
+  left:  10.99vw;
+   display: inline;
+   user-select: none;
+   border: #FFFFFF;
+   /* сама рамка */
+   padding: 2.2vw 12.7vw;
+   background-color: #6DA7FF;
+   border-radius: 1vw;
+   color: #3C89FF;
+   background-color: #D4E5FF;
+   border: solid;
+   border-color: #6DA7FF;
+   border-width: 2px;
+   font-size: 1.20vw;
+}
+input#cb3[type="checkbox"]:checked,
+input#cb3[type="checkbox"]:not(:checked){
+  /* Перенесем стандартное отображение элементов за область видимости */
+    position: absolute;
+    left: -9999px;
+}
+input#cb3[type="checkbox"]:checked + label,
+input#cb3[type="checkbox"]:not(:checked) + label{
+   /* добавим отступы к соседствующим меткам: */
+    display: inline-block;
+    position: relative;
+    /* отступы текста от рамки */
+    padding-left: 6.5vw;
+    line-height: 20px;
+    cursor: pointer;
+}
+input#cb3[type="checkbox"]:checked + label:before,
+input#cb3[type="checkbox"]:not(:checked) + label:before {
+  /* стилизованные контейнеры */
+    content: "";
+    position: absolute;
+    left: 2vw;
+    top: 2.5vh;
+    /* круг */
+    width: 3vw;
+    height: 3vw;
+    border: 1px solid #3C89FF;
+    background-color: #ffffff;
+}
+input#cb3[type="checkbox"]:checked + label:before,
+input#cb3[type="checkbox"]:not(:checked) + label:before {
+  /* квадраты с немного закругленными для красоты краями */
+    border-radius: 50%;
+}
+input#cb3[type="checkbox"]:checked + label:after,
+input#cb3[type="checkbox"]:not(:checked) + label:after{
+  /* Теперь добавим индикаторы выбора. */
+    content: "";
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+input#cb3[type="checkbox"]:checked + label:after,
+input#cb3[type="checkbox"]:not(:checked) + label:after {
+  /* небольшая анимация */
+    left: 2.5vw;
+    top: 3vh;
+    width: 2.5vw;
+    height: 1.3vw;
+    border-radius: 0.1vw;
+    border-left: 0.3vw solid #3C89FF;
+    border-bottom: 0.3vw solid #3C89FF;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+input#cb3[type="checkbox"]:not(:checked) + label:after {
+  /* индикаторы выбора */
+    opacity: 0;
+}
+input#cb3[type="checkbox"]:checked + label:after{
+  /* индикаторы выбора */
+    opacity: 1;
+}
+.container4 {
+  /* сам контейнер для надписи */
+  position: absolute;
+  /* расстояние от краев */
+  top: 13.9vh;
+  left:  37vw;
+   display: inline;
+   user-select: none;
+   border: #FFFFFF;
+   /* сама рамка */
+   padding: 2.2vw 10vw;
+   background-color: #6DA7FF;
+   border-radius: 1vw;
+   color: #3C89FF;
+   background-color: #D4E5FF;
+   border: solid;
+   border-color: #6DA7FF;
+   border-width: 2px;
+   font-size: 1.20vw;
+}
+input#cb4[type="checkbox"]:checked,
+input#cb4[type="checkbox"]:not(:checked){
+  /* Перенесем стандартное отображение элементов за область видимости */
+    position: absolute;
+    left: -9999px;
+}
+input#cb4[type="checkbox"]:checked + label,
+input#cb4[type="checkbox"]:not(:checked) + label{
+   /* добавим отступы к соседствующим меткам: */
+    display: inline-block;
+    position: relative;
+    /* отступы текста от рамки */
+    padding-left: 6.5vw;
+    line-height: 20px;
+    cursor: pointer;
+}
+input#cb4[type="checkbox"]:checked + label:before,
+input#cb4[type="checkbox"]:not(:checked) + label:before {
+  /* стилизованные контейнеры */
+    content: "";
+    position: absolute;
+    left: 2vw;
+    top: 2.5vh;
+    /* круг */
+    width: 3vw;
+    height: 3vw;
+    border: 1px solid #3C89FF;
+    background-color: #ffffff;
+}
+input#cb4[type="checkbox"]:checked + label:before,
+input#cb4[type="checkbox"]:not(:checked) + label:before {
+  /* квадраты с немного закругленными для красоты краями */
+    border-radius: 50%;
+}
+input#cb4[type="checkbox"]:checked + label:after,
+input#cb4[type="checkbox"]:not(:checked) + label:after{
+  /* Теперь добавим индикаторы выбора. */
+    content: "";
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+input#cb4[type="checkbox"]:checked + label:after,
+input#cb4[type="checkbox"]:not(:checked) + label:after {
+  /* небольшая анимация */
+    left: 2.5vw;
+    top: 3vh;
+    width: 2.5vw;
+    height: 1.3vw;
+    border-radius: 0.1vw;
+    border-left: 0.3vw solid #3C89FF;
+    border-bottom: 0.3vw solid #3C89FF;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+input#cb4[type="checkbox"]:not(:checked) + label:after {
+  /* индикаторы выбора */
+    opacity: 0;
+}
+input#cb4[type="checkbox"]:checked + label:after{
+  /* индикаторы выбора */
+    opacity: 1;
+}
+.container5 {
+  /* сам контейнер для надписи */
+  position: absolute;
+  /* расстояние от краев */
+  top: 1.7vh;
+  left:  63vw;
+   display: inline;
+   user-select: none;
+   border: #FFFFFF;
+   /* сама рамка */
+   padding: 2.2vw 11vw;
+   background-color: #6DA7FF;
+   border-radius: 1vw;
+   color: #3C89FF;
+   background-color: #D4E5FF;
+   border: solid;
+   border-color: #6DA7FF;
+   border-width: 2px;
+   font-size: 1.20vw;
+}
+input#cb5[type="checkbox"]:checked,
+input#cb5[type="checkbox"]:not(:checked){
+  /* Перенесем стандартное отображение элементов за область видимости */
+    position: absolute;
+    left: -9999px;
+}
+input#cb5[type="checkbox"]:checked + label,
+input#cb5[type="checkbox"]:not(:checked) + label{
+   /* добавим отступы к соседствующим меткам: */
+    display: inline-block;
+    position: relative;
+    /* отступы текста от рамки */
+    padding-left: 6.5vw;
+    line-height: 20px;
+    cursor: pointer;
+}
+input#cb5[type="checkbox"]:checked + label:before,
+input#cb5[type="checkbox"]:not(:checked) + label:before {
+  /* стилизованные контейнеры */
+    content: "";
+    position: absolute;
+    left: 2vw;
+    top: 2.5vh;
+    /* круг */
+    width: 3vw;
+    height: 3vw;
+    border: 1px solid #3C89FF;
+    background-color: #ffffff;
+}
+input#cb5[type="checkbox"]:checked + label:before,
+input#cb5[type="checkbox"]:not(:checked) + label:before {
+  /* квадраты с немного закругленными для красоты краями */
+    border-radius: 50%;
+}
+input#cb5[type="checkbox"]:checked + label:after,
+input#cb5[type="checkbox"]:not(:checked) + label:after{
+  /* Теперь добавим индикаторы выбора. */
+    content: "";
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+input#cb5[type="checkbox"]:checked + label:after,
+input#cb5[type="checkbox"]:not(:checked) + label:after {
+  /* небольшая анимация */
+    left: 2.5vw;
+    top: 3vh;
+    width: 2.5vw;
+    height: 1.3vw;
+    border-radius: 0.1vw;
+    border-left: 0.3vw solid #3C89FF;
+    border-bottom: 0.3vw solid #3C89FF;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+input#cb5[type="checkbox"]:not(:checked) + label:after {
+  /* индикаторы выбора */
+    opacity: 0;
+}
+input#cb5[type="checkbox"]:checked + label:after{
+  /* индикаторы выбора */
+    opacity: 1;
+}
+
+.tex3 {
+  position: absolute;
+  top: 74vh;
+  left:  11.5vw;
+  font-size: 1.67vw;
+  color: #3C89FF;
+  font-weight:  500;
+}
+.container6 {
+  /* сам контейнер для надписи */
+  position: absolute;
+  /* расстояние от краев */
+  top: 10vh;
+  left:  10.99vw;
+   display: inline;
+   user-select: none;
+   border: #FFFFFF;
+   /* сама рамка */
+   padding: 1.1vw 7.5vw;
+   background-color: #6DA7FF;
+   border-radius: 1vw;
+   color: #3C89FF;
+   background-color: #D4E5FF;
+   border: solid;
+   border-color: #6DA7FF;
+   border-width: 2px;
+   font-size: 1.20vw;
+}
+input#cb6[type="checkbox"]:checked,
+input#cb6[type="checkbox"]:not(:checked){
+  /* Перенесем стандартное отображение элементов за область видимости */
+    position: absolute;
+    left: -9999px;
+}
+input#cb6[type="checkbox"]:checked + label,
+input#cb6[type="checkbox"]:not(:checked) + label{
+   /* добавим отступы к соседствующим меткам: */
+    display: inline-block;
+    position: relative;
+    /* отступы текста от рамки */
+    padding-left: 5.7vw;
+    line-height: 20px;
+    cursor: pointer;
+}
+input#cb6[type="checkbox"]:checked + label:before,
+input#cb6[type="checkbox"]:not(:checked) + label:before {
+  /* стилизованные контейнеры */
+    content: "";
+    position: absolute;
+    left: 2vw;
+    top: 1.3vh;
+    /* круг */
+    width: 2.3vw;
+    height: 2.3vw;
+    border: 1px solid #3C89FF;
+    background-color: #ffffff;
+}
+input#cb6[type="checkbox"]:checked + label:before,
+input#cb6[type="checkbox"]:not(:checked) + label:before {
+  /* квадраты с немного закругленными для красоты краями */
+    border-radius: 50%;
+}
+input#cb6[type="checkbox"]:checked + label:after,
+input#cb6[type="checkbox"]:not(:checked) + label:after{
+  /* Теперь добавим индикаторы выбора. */
+    content: "";
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+input#cb6[type="checkbox"]:checked + label:after,
+input#cb6[type="checkbox"]:not(:checked) + label:after {
+  /* небольшая анимация */
+    left: 2.5vw;
+    top: 1.6vh;
+    width: 2vw;
+    height: 1vw;
+    border-radius: 0.1vw;
+    border-left: 0.26vw solid #3C89FF;
+    border-bottom: 0.26vw solid #3C89FF;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+input#cb6[type="checkbox"]:not(:checked) + label:after {
+  /* индикаторы выбора */
+    opacity: 0;
+}
+input#cb6[type="checkbox"]:checked + label:after{
+  /* индикаторы выбора */
+    opacity: 1;
+}
+.container7 {
+  /* сам контейнер для надписи */
+  position: absolute;
+  /* расстояние от краев */
+  top: 2.3vh;
+  left:  30.3vw;
+   display: inline;
+   user-select: none;
+   border: #FFFFFF;
+   /* сама рамка */
+   padding: 1.1vw 7.5vw;
+   background-color: #6DA7FF;
+   border-radius: 1vw;
+   color: #3C89FF;
+   background-color: #D4E5FF;
+   border: solid;
+   border-color: #6DA7FF;
+   border-width: 2px;
+   font-size: 1.20vw;
+}
+input#cb7[type="checkbox"]:checked,
+input#cb7[type="checkbox"]:not(:checked){
+  /* Перенесем стандартное отображение элементов за область видимости */
+    position: absolute;
+    left: -9999px;
+}
+input#cb7[type="checkbox"]:checked + label,
+input#cb7[type="checkbox"]:not(:checked) + label{
+   /* добавим отступы к соседствующим меткам: */
+    display: inline-block;
+    position: relative;
+    /* отступы текста от рамки */
+    padding-left: 5.7vw;
+    line-height: 20px;
+    cursor: pointer;
+}
+input#cb7[type="checkbox"]:checked + label:before,
+input#cb7[type="checkbox"]:not(:checked) + label:before {
+  /* стилизованные контейнеры */
+    content: "";
+    position: absolute;
+    left: 2vw;
+    top: 1.3vh;
+    /* круг */
+    width: 2.3vw;
+    height: 2.3vw;
+    border: 1px solid #3C89FF;
+    background-color: #ffffff;
+}
+input#cb7[type="checkbox"]:checked + label:before,
+input#cb7[type="checkbox"]:not(:checked) + label:before {
+  /* квадраты с немного закругленными для красоты краями */
+    border-radius: 50%;
+}
+input#cb7[type="checkbox"]:checked + label:after,
+input#cb7[type="checkbox"]:not(:checked) + label:after{
+  /* Теперь добавим индикаторы выбора. */
+    content: "";
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+input#cb7[type="checkbox"]:checked + label:after,
+input#cb7[type="checkbox"]:not(:checked) + label:after {
+  /* небольшая анимация */
+    left: 2.5vw;
+    top: 1.6vh;
+    width: 2vw;
+    height: 1vw;
+    border-radius: 0.1vw;
+    border-left: 0.26vw solid #3C89FF;
+    border-bottom: 0.26vw solid #3C89FF;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+input#cb7[type="checkbox"]:not(:checked) + label:after {
+  /* индикаторы выбора */
+    opacity: 0;
+}
+input#cb7[type="checkbox"]:checked + label:after{
+  /* индикаторы выбора */
+    opacity: 1;
+}
+.container8 {
+  /* сам контейнер для надписи */
+  position: absolute;
+  /* расстояние от краев */
+  top: -5.5vh;
+  left:  49.5vw;
+   display: inline;
+   user-select: none;
+   border: #FFFFFF;
+   /* сама рамка */
+   padding: 1.1vw 7.5vw;
+   background-color: #6DA7FF;
+   border-radius: 1vw;
+   color: #3C89FF;
+   background-color: #D4E5FF;
+   border: solid;
+   border-color: #6DA7FF;
+   border-width: 2px;
+   font-size: 1.20vw;
+}
+input#cb8[type="checkbox"]:checked,
+input#cb8[type="checkbox"]:not(:checked){
+  /* Перенесем стандартное отображение элементов за область видимости */
+    position: absolute;
+    left: -9999px;
+}
+input#cb8[type="checkbox"]:checked + label,
+input#cb8[type="checkbox"]:not(:checked) + label{
+   /* добавим отступы к соседствующим меткам: */
+    display: inline-block;
+    position: relative;
+    /* отступы текста от рамки */
+    padding-left: 5.7vw;
+    line-height: 20px;
+    cursor: pointer;
+}
+input#cb8[type="checkbox"]:checked + label:before,
+input#cb8[type="checkbox"]:not(:checked) + label:before {
+  /* стилизованные контейнеры */
+    content: "";
+    position: absolute;
+    left: 2vw;
+    top: 1.3vh;
+    /* круг */
+    width: 2.3vw;
+    height: 2.3vw;
+    border: 1px solid #3C89FF;
+    background-color: #ffffff;
+}
+input#cb8[type="checkbox"]:checked + label:before,
+input#cb8[type="checkbox"]:not(:checked) + label:before {
+  /* квадраты с немного закругленными для красоты краями */
+    border-radius: 50%;
+}
+input#cb8[type="checkbox"]:checked + label:after,
+input#cb8[type="checkbox"]:not(:checked) + label:after{
+  /* Теперь добавим индикаторы выбора. */
+    content: "";
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+input#cb8[type="checkbox"]:checked + label:after,
+input#cb8[type="checkbox"]:not(:checked) + label:after {
+  /* небольшая анимация */
+    left: 2.5vw;
+    top: 1.6vh;
+    width: 2vw;
+    height: 1vw;
+    border-radius: 0.1vw;
+    border-left: 0.26vw solid #3C89FF;
+    border-bottom: 0.26vw solid #3C89FF;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+input#cb8[type="checkbox"]:not(:checked) + label:after {
+  /* индикаторы выбора */
+    opacity: 0;
+}
+input#cb8[type="checkbox"]:checked + label:after{
+  /* индикаторы выбора */
+    opacity: 1;
+}
+.container9 {
+  /* сам контейнер для надписи */
+  position: absolute;
+  /* расстояние от краев */
+  top: -13.2vh;
+  left:  69.5vw;
+   display: inline;
+   user-select: none;
+   border: #FFFFFF;
+   /* сама рамка */
+   padding: 1.1vw 6.7vw;
+   background-color: #6DA7FF;
+   border-radius: 1vw;
+   color: #3C89FF;
+   background-color: #D4E5FF;
+   border: solid;
+   border-color: #6DA7FF;
+   border-width: 2px;
+   font-size: 1.20vw;
+}
+input#cb9[type="checkbox"]:checked,
+input#cb9[type="checkbox"]:not(:checked){
+  /* Перенесем стандартное отображение элементов за область видимости */
+    position: absolute;
+    left: -9999px;
+}
+input#cb9[type="checkbox"]:checked + label,
+input#cb9[type="checkbox"]:not(:checked) + label{
+   /* добавим отступы к соседствующим меткам: */
+    display: inline-block;
+    position: relative;
+    /* отступы текста от рамки */
+    padding-left: 5.7vw;
+    line-height: 20px;
+    cursor: pointer;
+}
+input#cb9[type="checkbox"]:checked + label:before,
+input#cb9[type="checkbox"]:not(:checked) + label:before {
+  /* стилизованные контейнеры */
+    content: "";
+    position: absolute;
+    left: 2vw;
+    top: 1.3vh;
+    /* круг */
+    width: 2.3vw;
+    height: 2.3vw;
+    border: 1px solid #3C89FF;
+    background-color: #ffffff;
+}
+input#cb9[type="checkbox"]:checked + label:before,
+input#cb9[type="checkbox"]:not(:checked) + label:before {
+  /* квадраты с немного закругленными для красоты краями */
+    border-radius: 50%;
+}
+input#cb9[type="checkbox"]:checked + label:after,
+input#cb9[type="checkbox"]:not(:checked) + label:after{
+  /* Теперь добавим индикаторы выбора. */
+    content: "";
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+input#cb9[type="checkbox"]:checked + label:after,
+input#cb9[type="checkbox"]:not(:checked) + label:after {
+  /* небольшая анимация */
+    left: 2.5vw;
+    top: 1.6vh;
+    width: 2vw;
+    height: 1vw;
+    border-radius: 0.1vw;
+    border-left: 0.26vw solid #3C89FF;
+    border-bottom: 0.26vw solid #3C89FF;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+input#cb9[type="checkbox"]:not(:checked) + label:after {
+  /* индикаторы выбора */
+    opacity: 0;
+}
+input#cb9[type="checkbox"]:checked + label:after{
+  /* индикаторы выбора */
+    opacity: 1;
+}
+
+.dla2 {
+  position: absolute;
+  top: 100vh;
+  left:  10.99vw;
+  font-size: 4.95vw;
+  color: #3C89FF;
+}
+.square {
+  position: absolute;
+	width: 44px;
+	height: 40px;
+	background: #3C89FF;
+  border-radius: 0.8vw;
+  top: 125vh;
+  left:  10.99vw;
+}
+.mel1 {
+  color: #3C89FF;
+  left: 16.25vw;
+  top: 122.5vh;
+  position: absolute;
+  font-size: 1.67vw;
+  font-weight:  500;
+}
+.tt {
+  color: #3C89FF;
+  left:  10.99vw;
+  top: 130.5vh;
+  position: absolute;
+  font-size: 1.20vw;
+}
+
+.square2 {
+  position: absolute;
+	width: 44px;
+	height: 40px;
+	background: #3C89FF;
+  border-radius: 0.8vw;
+  top: 145vh;
+  left:  10.99vw;
+}
+.mel2 {
+  color: #3C89FF;
+  left: 16.25vw;
+  top: 142.5vh;
+  position: absolute;
+  font-size: 1.67vw;
+  font-weight:  500;
+}
+.tt2 {
+  color: #3C89FF;
+  left:  10.99vw;
+  top: 150.5vh;
+  position: absolute;
+  font-size: 1.20vw;
+}
+
+.square3 {
+  position: absolute;
+	width: 44px;
+	height: 40px;
+	background: #3C89FF;
+  border-radius: 0.8vw;
+  top: 125vh;
+  left:  49.5vw;
+}
+.mel3{
+  color: #3C89FF;
+  left:  55.5vw;
+  top: 122.5vh;
+  position: absolute;
+  font-size: 1.67vw;
+  font-weight:  500;
+}
+.tt3 {
+  color: #3C89FF;
+  left:  49.5vw;
+  top: 130.5vh;
+  position: absolute;
+  font-size: 1.20vw;
+}
+
+.square4 {
+  position: absolute;
+	width: 44px;
+	height: 40px;
+	background: #3C89FF;
+  border-radius: 0.8vw;
+  top: 145vh;
+  left:  49.5vw;
+}
+.mel4{
+  color: #3C89FF;
+  left:  55.5vw;
+  top: 142.5vh;
+  position: absolute;
+  font-size: 1.67vw;
+  font-weight:  500;
+}
+.tt4 {
+  color: #3C89FF;
+  left:  10.99vw;
+  top: 150.5vh;
+  position: absolute;
+  left:  49.5vw;
+}
+
+.mel5 {
+  color: #3C89FF;
+  left:  10.99vw;
+  top: 167.5vh;
+  position: absolute;
+  font-size: 1.67vw;
+  font-weight:  500;
+}
+.tt5 {
+  color: #3C89FF;
+  left:  10.99vw;
+  top: 175.5vh;
+  position: absolute;
+  font-size: 1.20vw;
+}
+
+.mel6 {
+  color: #3C89FF;
+  left:  10.99vw;
+  top: 229vh;
+  position: absolute;
+  font-size: 1.67vw;
+  font-weight:  500;
+}
+.tt6 {
+  color: #3C89FF;
+  left:  10.99vw;
+  top: 237vh;
+  position: absolute;
+  font-size: 1.20vw;
+}
+
+.mel7 {
+  color: #3C89FF;
+  left:  10.99vw;
+  top: 264vh;
+  position: absolute;
+  font-size: 1.67vw;
+  font-weight:  500;
+}
+.tt7 {
+  color: #3C89FF;
+  left:  10.99vw;
+  top: 272vh;
+  position: absolute;
+  font-size: 1.20vw;
+}
+.tt8 {
+  color: #3C89FF;
+  left:  10.99vw;
+  top: 373vh;
+  position: absolute;
+  font-size: 1.20vw;
+}
+.tt9 {
+  color: #3C89FF;
+  left:  10.99vw;
+  top: 383vh;
+  position: absolute;
+  font-size: 1.20vw;
+}
+
+.mel10 {
+  color: #3C89FF;
+  left:  10.99vw;
+  top: 407vh;
+  position: absolute;
+  font-size: 1.67vw;
+  font-weight:  500;
+}
+.tt10 {
+  color: #3C89FF;
+  left:  10.99vw;
+  top: 419vh;
+  position: absolute;
+  font-size: 1.20vw;
+}
+
+.dla3 {
+  position: absolute;
+  top: 460vh;;
+  left:  10.99vw;
+  font-size: 4.95vw;
+  color: #3C89FF;
+}
+.tt11 {
+  color: #3C89FF;
+  left:  10.99vw;
+  top: 481.5vh;
+  position: absolute;
+  font-size: 1.20vw;
+}
+
+.foot {
+ position: absolute;
+ top: 531vh;
+ left: 10.99vw;
+ font-size: 1.04vw;
+ color: #3C89FF;
+ padding: 2vw 0vh;
+}
+.foot2 {
+ position: absolute;
+ top: 531vh;
+ left: 40.31vw;
+ font-size: 1.04vw;
+ color: #3C89FF;
+ padding: 2vw 0vh;
+}
+.foot3 {
+ position: absolute;
+ top: 531vh;
+ left: 67vw;
+ font-size: 1.04vw;
+ color: #3C89FF;
+ padding: 2vw 0vh;
+}
